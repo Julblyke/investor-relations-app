@@ -1,11 +1,13 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  height: 100%;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #003865;
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,14 +26,14 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
+  height: 100%;
   min-width: 320px;
   min-height: 100vh;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3em;
   line-height: 1.1;
 }
 
@@ -65,4 +67,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
